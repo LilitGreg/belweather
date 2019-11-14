@@ -1,0 +1,128 @@
+ .navbar ul .current-menu-item a, .navbar ul li a:hover, .navbar ul li a:active, .navbar ul li a:visited {
+    border: 1px solid #333333;
+    color: #333333;
+    text-decoration: none;
+}
+.navbar ul li a {
+    color: #333333;
+}
+#logo {
+    color: #293382;
+}
+
+header .captions {
+    display:none;
+}
+.backimg {
+    min-height: 295px;
+    height: 295px;
+    margin-top: 18px;
+    overflow: hidden;
+    position: relative;
+}
+
+.page .back_pag {
+    left: 16%;
+    top: -270px;
+    width: 100%;
+    margin-left: -16%;
+    position: absolute;
+}
+
+.page-id-15 .back_pag{
+    top:0px !important;
+}
+
+.foot {
+    padding-top: 29px;
+}
+.navbar{
+    margin-bottom:9px;
+    min-height:auto;
+}
+
+@font-face {
+    font-family: 'Goudy Bookletter 1911';
+    src: url('../fonts/GoudyBookletter1911.eot');
+    src: url('../fonts/GoudyBookletter1911.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/GoudyBookletter1911.woff2') format('woff2'),
+        url('../fonts/GoudyBookletter1911.woff') format('woff'),
+        url('../fonts/GoudyBookletter1911.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+#logo h3 {
+    font-family: 'Goudy Bookletter 1911';
+}
+.row_page ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      position: relative;
+}
+.row_page ul li {
+    padding-left: 10px;
+    font-size: 18px;
+    position: relative;
+}
+.row_page ul li::before {
+    background-color: #293382;
+    font-size: 16px;
+    border-radius: 35%;
+    content: "";
+    position: absolute;
+    display: inline-block;
+    top: 11px;
+    left: 0px;
+    margin-bottom: 2px;
+    height: 5px;
+    width: 5px;
+}
+.page h2{
+    font-size: 22px;
+   font-family: 'Goudy Bookletter 1911';
+   text-transform: uppercase;
+   letter-spacing: 1.1px;
+}
+h4{
+    font-family: 'Lato Regular';
+}
+#menutog i {
+    color: black;
+}
+
+.page-id-15 .backimg {
+    min-height: 260px;
+    height: 260px;
+}
+
+@media screen and (max-width:1170px) {
+    .page .back_pag {
+      top: -34%;
+     }
+
+     .page-id-15 .backimg{
+         min-height: 190px;
+         height: 190px;
+     }
+}
+@media screen and (max-width: 767px) {
+
+    .backimg {
+        display:none;
+        min-height: 50px;
+        height: 50px;
+   }
+
+   .row_blog img {
+       height: auto;
+   }
+
+
+
+
+}
+
+@media screen and (max-width: 480px) {
+
+}
