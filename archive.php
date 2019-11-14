@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <div class="clearfix container archive_cont">
     <div class="row">
-        <div class="col-md-8">
+        <div class="col-md-8">  <!---azzzizz-->
         <?php
          if (have_posts()) :
             while (have_posts()) : the_post();
